@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "reward",
+						"type": "uint256"
+					}
+				],
+				"name": "notifyRewardAmount",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "rewardsDistribution",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StakingRewardsFactory_flattened.sol": "RewardsDistributionRecipient"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StakingRewardsFactory_flattened.sol": {
+			"keccak256": "0x70b00558254c10da5acfe4ae00c620cce247fde66de6883cb9d519951e10d3a9",
+			"urls": [
+				"bzz-raw://19dfab2ae343c0c0b6a57e5e612703ad7c69fc1be041cf6e6b25f13cba89752f",
+				"dweb:/ipfs/QmcV5yqxojZbEyc4FqDtZzPENjpaK6PiNhrDBjSbfmExhX"
+			]
+		}
+	},
+	"version": 1
+}
